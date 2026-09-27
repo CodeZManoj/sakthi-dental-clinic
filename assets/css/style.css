@@ -1856,6 +1856,57 @@ textarea.form-control {
   }
 }
 
+.privacy-article {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 48px 44px;
+  box-shadow: var(--shadow-sm);
+}
+
+.privacy-article h2 {
+  font-size: 1.35rem;
+  margin: 32px 0 12px;
+  color: var(--dark-900);
+}
+
+.privacy-article h2:first-of-type {
+  margin-top: 0;
+}
+
+.privacy-article p,
+.privacy-article li {
+  color: var(--dark-700);
+  line-height: 1.75;
+}
+
+.privacy-article ul {
+  margin: 0 0 16px 22px;
+}
+
+.privacy-article li {
+  margin-bottom: 8px;
+}
+
+.contact-success {
+  display: none;
+  background: var(--success-subtle);
+  border: 1px solid #A7F3D0;
+  color: #065F46;
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.page-banner {
+  background: linear-gradient(135deg, #F5F3FF 0%, #EDE9FE 100%);
+  padding: 60px 0 50px;
+  border-bottom: 1px solid var(--border);
+}
+
 @media (max-width: 480px) {
   .hero-title {
     font-size: 1.95rem;
@@ -1872,5 +1923,8 @@ textarea.form-control {
   }
   .hero-image-frame img {
     height: 340px;
+  }
+  .privacy-article {
+    padding: 28px 20px;
   }
 }
